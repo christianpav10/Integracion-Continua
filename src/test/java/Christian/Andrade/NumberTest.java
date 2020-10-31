@@ -19,4 +19,10 @@ private Number number;
         assertEquals(2,this.number.substractNumbers());
 
     }
+    @Test
+    public void multiplyNumbers(){
+        this.number=new Number(1,1);
+        assertEquals(1,this.number.multiplyNumbers());
+
+    }
 }

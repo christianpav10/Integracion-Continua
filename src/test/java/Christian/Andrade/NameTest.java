@@ -12,4 +12,5 @@ private Name name;
     assertEquals(6,this.name.numberOfCharacter());
 
     }
+
 }
