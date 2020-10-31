@@ -12,4 +12,10 @@ private Name name;
     assertEquals(6,this.name.numberOfCharacter());
 
     }
+    @Test
+    public void changeWord(){
+    this.name=new Name("GUITARRA");
+    assertEquals("ARRATIUG",this.name.changeWord());
+
+    }
 }
