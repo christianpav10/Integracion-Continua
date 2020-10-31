@@ -17,4 +17,14 @@ public class Name {
     public int numberOfCharacter(){
         return this.word.length();
     }
+    public String changeWord() {
+        String reverse="";
+        for (int number = this.numberOfCharacter()-1; number >= 0; number--) {
+            reverse=reverse+this.word.charAt(number);
+
+        }
+        return reverse;
+
+    }
 }
+
