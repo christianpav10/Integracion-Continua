@@ -13,4 +13,10 @@ private Number number;
         assertEquals(3,this.number.addNumbers());
         
     }
+    @Test
+    public void substractNumbers(){
+        this.number=new Number(4,2);
+        assertEquals(2,this.number.substractNumbers());
+
+    }
 }
