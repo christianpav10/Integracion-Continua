@@ -18,4 +18,9 @@ private Name name;
     assertEquals("ARRATIUG",this.name.changeWord());
 
     }
+    @Test
+    public void capitalLetters(){
+    this.name=new Name("pajaro");
+    assertEquals("PAJARO",this.name.capitalLetters());
+    }
 }
